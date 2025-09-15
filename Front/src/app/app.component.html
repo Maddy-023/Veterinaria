@@ -1,0 +1,14 @@
+<app-auth *ngIf="!isInAuth"></app-auth>
+
+<div *ngIf="isInAuth" class="flex flex-col w-screen h-screen">
+  <app-nav></app-nav>
+
+  <!-- Contenedor principal: menú lateral + contenido -->
+  <div class="flex flex-row flex-1 overflow-hidden">
+    <app-side-menu class="w-2/7 h-full"></app-side-menu>
+
+    <div class="w-5/7 h-full overflow-y-auto">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>
