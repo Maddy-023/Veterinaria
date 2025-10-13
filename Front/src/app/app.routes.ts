@@ -8,10 +8,10 @@ export const routes: Routes = [
   },
   {
     path: 'auth',
-    loadComponent: () => import('./Components/auth/auth.component'). then(m => m.AuthComponent)
+    loadComponent: () => import('./Components/Administrador/PanelAdmin/auth/auth.component'). then(m => m.AuthComponent)
   },
   {
     path: 'admin-panel',
-    loadComponent: () => import('./Components/admin-panel/admin-panel.component'). then(m => m.AdminPanelComponent)
+    loadComponent: () => import('./Components/Administrador/PanelAdmin/admin-panel/admin-panel.component'). then(m => m.AdminPanelComponent)
   }
 ];
