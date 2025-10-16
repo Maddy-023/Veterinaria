@@ -4,8 +4,8 @@ import { RouterLink } from '@angular/router';
 @Component({
   selector: 'app-auth',
   imports: [RouterLink],
-  templateUrl: './auth.component.html',
-  styleUrl: './auth.component.css'
+  templateUrl: './authadmin-panel.component.html',
+  styleUrl: './authadmin-panel.component.css'
 })
 export class AuthComponent {
 

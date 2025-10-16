@@ -4,8 +4,8 @@ import { RouterLink } from '@angular/router';
 @Component({
   selector: 'app-side-menu',
   imports: [RouterLink],
-  templateUrl: './side-menu.component.html',
-  styleUrl: './side-menu.component.css'
+  templateUrl: './side-menugestion-citas.component.html',
+  styleUrl: './side-menugestion-citas.component.css'
 })
 export class SideMenuComponent {
 

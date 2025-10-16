@@ -1,0 +1,24 @@
+<div class="consultas-container">
+  <h2>Consultas</h2>
+  <div class="tabla-consultas">
+    <table>
+      <thead>
+        <tr>
+          <th>Fecha</th>
+          <th>Hora</th>
+          <th>Nombre Mascota</th>
+          <th>Detalles</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let consulta of consultas">
+          <td>{{ consulta.fecha }}</td>
+          <td>{{ consulta.hora }}</td>
+          <td>{{ consulta.nombreMascota }}</td>
+          <td>{{ consulta.detalles }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+

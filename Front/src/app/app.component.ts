@@ -1,9 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { Router, RouterOutlet } from '@angular/router';
-import { SideMenuComponent } from "./Components/Administrador/PanelAdmin/side-menu/side-menu.component";
+import { SideMenuComponent } from "./Components/Administrador/PanelAdmin/side-menuadmin-panel/side-menuadmin-panel.component";
 import { CommonModule } from '@angular/common';
-import { AuthComponent } from "./Components/Administrador/PanelAdmin/auth/auth.component";
-import { NavComponent } from "./Components/Administrador/PanelAdmin/nav/nav.component";
+import { AuthComponent } from "./Components/Administrador/PanelAdmin/authadmin-panel/authadmin-panel.component";
+import { NavComponent } from "./Components/Administrador/PanelAdmin/navadmin-panel/navadmin-panel.component";
 
 @Component({
   selector: 'app-root',
