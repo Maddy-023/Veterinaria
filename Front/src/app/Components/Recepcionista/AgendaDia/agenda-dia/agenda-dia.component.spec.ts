@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { AdminPanelComponent } from './agenda-dia.component';
+import { AgendaDiaComponent } from './agenda-dia.component';
 
-describe('AdminPanelComponent', () => {
-  let component: AdminPanelComponent;
-  let fixture: ComponentFixture<AdminPanelComponent>;
+describe('AgendaDiaComponent', () => {
+  let component: AgendaDiaComponent;
+  let fixture: ComponentFixture<AgendaDiaComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [AdminPanelComponent]
+      imports: [AgendaDiaComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(AdminPanelComponent);
+    fixture = TestBed.createComponent(AgendaDiaComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
