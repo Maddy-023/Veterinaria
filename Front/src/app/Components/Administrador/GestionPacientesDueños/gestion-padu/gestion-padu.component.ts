@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-admin-panel',
+  selector: 'gestion-padu',
   imports: [],
   templateUrl: './gestion-padu.component.html',
   styleUrl: './gestion-padu.component.css'
 })
-export class AdminPanelComponent {
+export class GestionPacientesDueñosComponent {
 
 }

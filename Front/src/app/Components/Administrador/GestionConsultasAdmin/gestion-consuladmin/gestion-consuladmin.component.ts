@@ -1,18 +1,9 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-admin-panel',
-  imports: [],
+  selector: 'gestion-consuladmin',
+  standalone: true,
   templateUrl: './gestion-consuladmin.component.html',
-  styleUrl: './gestion-consuladmin.component.css'
+  styleUrls: ['./gestion-consuladmin.component.html']
 })
-export class AdminPanelComponent {
-  consultas = [
-    { fecha: '01/01/2025', hora: '09:00', nombreMascota: 'Firulais 1', detalles: 'Detalles de la consulta' },
-    { fecha: '02/01/2025', hora: '10:00', nombreMascota: 'Firulais 1', detalles: 'Detalles de la consulta' },
-    { fecha: '03/01/2025', hora: '11:30', nombreMascota: 'Firulais 1', detalles: 'Detalles de la consulta' },
-    { fecha: '04/01/2025', hora: '13:00', nombreMascota: 'Firulais 1', detalles: 'Detalles de la consulta' },
-    { fecha: '05/01/2025', hora: '15:00', nombreMascota: 'Firulais 1', detalles: 'Detalles de la consulta' },
-  ];
-
-}
+export class GestionConsuladminComponent { }
